@@ -13,6 +13,7 @@ import {
   QuoteSection,
   ServicesSection,
   WhyPrep,
+  LocalServiceAreasSection,
 } from "../components/HomeSections"
 import { JsonLd } from "../components/JsonLd"
 
@@ -20,8 +21,8 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="GK Coating | Sand Blasting, Spray Painting & Metallizing in Vellore"
-        description="GK Coating provides sand blasting, spray painting, temple stone blasting and metallizing services for PEB, steel structures and industrial metal surfaces in Thiruvalam, Vellore, Tamil Nadu."
+        title="Sand Blasting in Vellore, Ranipet & Thiruvalam | GK Coating | Mobile Rig"
+        description="Top-rated Sand Blasting, Thermal Arc Spray Metallizing, Airless Spray Painting & Temple Stone Blasting in Thiruvalam, Vellore, Ranipet SIPCOT, Tamil Nadu. Mobile on-site rig available."
         path="/"
       />
       <JsonLd />
@@ -34,6 +35,7 @@ export default function Home() {
       <ProcessSection />
       <ApplicationsSection />
       <WhyPrep />
+      <LocalServiceAreasSection />
       <GallerySection />
       <AboutBlock />
       <ContactCta />

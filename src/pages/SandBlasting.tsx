@@ -13,8 +13,8 @@ export default function SandBlasting() {
   return (
     <>
       <Seo
-        title="Sand Blasting in Vellore | GK Coating Thiruvalam"
-        description="Professional sand blasting and metal surface preparation for PEB structures, structural steel and industrial components in Thiruvalam, Vellore."
+        title="Sand Blasting in Vellore, Ranipet & Thiruvalam | PEB Steel & Metal Blasting"
+        description="High-pressure industrial sand blasting (Sa 2.5 / Sa 3) for PEB structural steel, machinery, and rust removal in Thiruvalam, Vellore, Ranipet SIPCOT & Tamil Nadu. 24/7 Mobile rig."
         path={service.path}
       />
       <PageHero kicker="01 / Sand blasting" title={service.title} body={service.heroSubtitle} image={service.image} />

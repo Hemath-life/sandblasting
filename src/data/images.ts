@@ -1,5 +1,4 @@
 import heroIndustrial from "../assets/images/hero-industrial.jpg"
-import hero3d from "../assets/images/hero-3d-sandblasting.jpg"
 import beforeRustedSteel from "../assets/images/before-rusted-steel.jpg"
 import afterCleanSteel from "../assets/images/after-clean-steel.jpg"
 import sprayPainting from "../assets/images/in-spray-painting.jpg"
@@ -19,9 +18,8 @@ import meenakshi from "../assets/images/in-meenakshi.jpg"
 import hardhat from "../assets/images/in-hardhat.jpg"
 
 export const images = {
-  hero: hero3d,
+  hero: heroIndustrial,
   heroClassic: heroIndustrial,
-  hero3d: hero3d,
   intro: pebSteel,
   peb: pebSteel,
   steelWarehouse: vizagSteel,
