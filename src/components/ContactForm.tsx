@@ -65,7 +65,7 @@ export function ContactForm() {
       ...values,
       source: "gk-coating-website",
     }
-    const endpoint = import.meta.env.VITE_CONTACT_API_URL
+    const endpoint = company.contactApiUrl
 
     try {
       if (endpoint) {

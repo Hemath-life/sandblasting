@@ -17,11 +17,11 @@ export function JsonLd() {
     vatID: company.gstin,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "No. 437, Mariyamman Koil Street, Kugainallur Post",
-      addressLocality: "Thiruvalam",
-      addressRegion: "Tamil Nadu",
-      postalCode: "632515",
-      addressCountry: "IN",
+      streetAddress: company.address.street,
+      addressLocality: company.address.locality,
+      addressRegion: company.address.region,
+      postalCode: company.address.postalCode,
+      addressCountry: company.address.country,
     },
     areaServed: company.serviceArea,
     hasOfferCatalog: {

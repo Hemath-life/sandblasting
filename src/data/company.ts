@@ -1,49 +1,81 @@
-export const siteUrl =
-  import.meta.env.VITE_SITE_URL?.replace(/\/$/, "") ?? "https://www.gkcoating.in"
+function env(name: keyof ImportMetaEnv, fallback = ""): string {
+  return import.meta.env[name]?.trim() || fallback
+}
 
-export const phones = [
-  {
-    label: "+91 88256 69481",
-    display: "88256 69481",
-    tel: "tel:+918825669481",
-    e164: "+918825669481",
-  },
-  {
-    label: "+91 63799 11288",
-    display: "63799 11288",
-    tel: "tel:+916379911288",
-    e164: "+916379911288",
-  },
-] as const
+export type Phone = {
+  label: string
+  display: string
+  tel: string
+  e164: string
+}
 
-const whatsappMessage =
-  "Hello GK Coating, I would like to enquire about your sand blasting / coating services."
+export function formatPhone(raw: string): Phone {
+  const digits = raw.replace(/\D/g, "")
+  const e164 = `+${digits}`
+  const local = digits.startsWith("91") ? digits.slice(2) : digits
+  const grouped =
+    local.length === 10 ? `${local.slice(0, 5)} ${local.slice(5)}` : local
+  return {
+    label: digits.startsWith("91") ? `+91 ${grouped}` : e164,
+    display: grouped,
+    tel: `tel:${e164}`,
+    e164,
+  }
+}
+
+export const siteUrl = env("VITE_SITE_URL", "https://www.gkcoating.in").replace(/\/$/, "")
+
+export const phones: Phone[] = [
+  formatPhone(env("VITE_PHONE_PRIMARY", "+918825669481")),
+  formatPhone(env("VITE_PHONE_SECONDARY", "+916379911288")),
+]
+
+const whatsappMessage = env(
+  "VITE_WHATSAPP_MESSAGE",
+  "Hello GK Coating, I would like to enquire about your sand blasting / coating services.",
+)
+const whatsappNumber = env("VITE_WHATSAPP_NUMBER", "918825669481").replace(/\D/g, "")
 
 export const company = {
-  name: "GK COATING",
-  shortName: "GK Coating",
-  proprietor: "Praveen Kumar K.",
+  name: env("VITE_COMPANY_NAME", "GK COATING"),
+  shortName: env("VITE_COMPANY_SHORT_NAME", "GK Coating"),
+  proprietor: env("VITE_PROPRIETOR", "Praveen Kumar K."),
   eyebrow: "SURFACE PREPARATION & PROTECTIVE COATINGS",
   tagline: "Surface Preparation & Protective Coating Solutions",
   supportingLine: "Prepare. Protect. Preserve.",
   description:
     "Professional sand blasting, spray painting, temple stone blasting and metallizing solutions for PEB, steel structures and industrial surfaces.",
-  gstin: "33DYCPP7577J1ZU",
-  location: "Thiruvalam, Vellore, Tamil Nadu",
-  serviceArea: "Vellore and surrounding industrial areas",
+  gstin: env("VITE_GSTIN", "33DYCPP7577J1ZU"),
+  location: env("VITE_LOCATION", "Thiruvalam, Vellore, Tamil Nadu"),
+  serviceArea: env("VITE_SERVICE_AREA", "Vellore and surrounding industrial areas"),
   address: {
-    line1: "No. 437, Mariyamman Koil Street",
-    line2: "Kugainallur Post",
-    line3: "Thiruvalam, Vellore District – 632515",
-    line4: "Tamil Nadu, India.",
-    compact: "No. 437, Mariyamman Koil Street, Kugainallur Post, Thiruvalam, Vellore District – 632515.",
-    full: "No. 437, Mariyamman Koil Street, Kugainallur Post, Thiruvalam, Vellore District – 632515, Tamil Nadu, India.",
+    line1: env("VITE_ADDRESS_LINE1", "No. 437, Mariyamman Koil Street"),
+    line2: env("VITE_ADDRESS_LINE2", "Kugainallur Post"),
+    line3: env("VITE_ADDRESS_LINE3", "Thiruvalam, Vellore District – 632515"),
+    line4: env("VITE_ADDRESS_LINE4", "Tamil Nadu, India."),
+    street: env("VITE_ADDRESS_STREET", "No. 437, Mariyamman Koil Street, Kugainallur Post"),
+    locality: env("VITE_ADDRESS_LOCALITY", "Thiruvalam"),
+    region: env("VITE_ADDRESS_REGION", "Tamil Nadu"),
+    postalCode: env("VITE_ADDRESS_POSTAL_CODE", "632515"),
+    country: env("VITE_ADDRESS_COUNTRY", "IN"),
+    compact: env(
+      "VITE_ADDRESS_COMPACT",
+      "No. 437, Mariyamman Koil Street, Kugainallur Post, Thiruvalam, Vellore District – 632515.",
+    ),
+    full: env(
+      "VITE_ADDRESS_FULL",
+      "No. 437, Mariyamman Koil Street, Kugainallur Post, Thiruvalam, Vellore District – 632515, Tamil Nadu, India.",
+    ),
   },
   phones,
   primaryPhone: phones[0],
-  whatsappUrl: `https://wa.me/918825669481?text=${encodeURIComponent(whatsappMessage)}`,
+  whatsappUrl: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`,
   whatsappMessage,
-  servicesLine: "Sand Blasting, Spray Painting, Temple Stone Blasting & Metallizing",
+  servicesLine: env(
+    "VITE_SERVICES_LINE",
+    "Sand Blasting, Spray Painting, Temple Stone Blasting & Metallizing",
+  ),
+  contactApiUrl: env("VITE_CONTACT_API_URL"),
   applications: [
     "PEB structures",
     "Structural steel",
@@ -56,7 +88,7 @@ export const company = {
     "Surface preparation",
     "Temple stone surfaces",
   ],
-} as const
+}
 
 export const navLinks = [
   { label: "Home", to: "/" },
@@ -69,7 +101,7 @@ export const navLinks = [
 ] as const
 
 export function mapsEmbedUrl(): string {
-  const configured = import.meta.env.VITE_GOOGLE_MAPS_URL
+  const configured = env("VITE_GOOGLE_MAPS_URL")
   if (configured) return configured
   const query = encodeURIComponent(company.address.full)
   return `https://maps.google.com/maps?q=${query}&z=15&output=embed`
