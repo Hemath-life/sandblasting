@@ -17,13 +17,12 @@ import velloreFort from "../assets/images/in-vellore-fort.jpg"
 import thanjavur from "../assets/images/in-thanjavur.jpg"
 import meenakshi from "../assets/images/in-meenakshi.jpg"
 import hardhat from "../assets/images/in-hardhat.jpg"
-import ppeCrew from "../assets/images/in-ppe-crew.jpg"
 
 export const images = {
   hero: hero3d,
   heroClassic: heroIndustrial,
   hero3d: hero3d,
-  intro: ppeCrew,
+  intro: pebSteel,
   peb: pebSteel,
   steelWarehouse: vizagSteel,
   blasting: heroIndustrial,

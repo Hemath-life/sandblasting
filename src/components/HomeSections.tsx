@@ -43,12 +43,28 @@ export function Introduction() {
         </div>
         <div className="relative lg:col-span-6 lg:col-start-7 lg:-mt-10">
           <div className="absolute -left-6 top-8 hidden h-24 w-px bg-metal lg:block" />
-          <img
-            src={images.intro}
-            alt="Indian industrial crew in safety helmets on a worksite"
-            className="img-grade h-[460px] w-full rounded-2xl object-cover"
-            loading="lazy"
-          />
+          <div className="relative overflow-hidden rounded-2xl border border-metal/20 shadow-2xl shadow-black/30">
+            <img
+              src={images.intro}
+              alt="Engineering team inspecting structural PEB steel fabrication and blasting in Tamil Nadu yard"
+              className="h-[460px] w-full object-cover object-center filter brightness-[0.98] contrast-[1.04]"
+              loading="lazy"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-graphite/80 via-transparent to-transparent" />
+            <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between rounded-xl border border-white/15 bg-charcoal/85 p-3.5 backdrop-blur-md">
+              <div>
+                <p className="text-xs font-bold uppercase tracking-wider text-white">
+                  Tamil Nadu Fabrication & Blasting Yard
+                </p>
+                <p className="text-[11px] text-offwhite/75">
+                  PEB Structural Steel • Heavy Beams • ISO Sa 2.5 Inspection
+                </p>
+              </div>
+              <span className="hidden sm:inline-flex rounded-full bg-brand/20 border border-brand/40 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-emerald-400">
+                Active Rig
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
