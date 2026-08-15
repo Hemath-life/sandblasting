@@ -1,11 +1,10 @@
-import heroIndustrial from "../assets/images/hero-industrial.jpg"
+import realSandblasting from "../assets/images/real-sandblasting-action.jpg"
 import beforeRustedSteel from "../assets/images/before-rusted-steel.jpg"
 import afterCleanSteel from "../assets/images/after-clean-steel.jpg"
 import sprayPainting from "../assets/images/in-spray-painting.jpg"
 import metallizingImage from "../assets/images/in-metallizing.jpg"
 import templeBlasting from "../assets/images/in-temple-blasting.jpg"
 import pebSteel from "../assets/images/in-peb-steel.jpg"
-import sandblastingAction from "../assets/images/in-sandblasting-action.jpg"
 import vizagSteel from "../assets/images/in-vizag-steel.jpg"
 import bokaro from "../assets/images/in-bokaro.jpg"
 import jamshedpur from "../assets/images/in-jamshedpur.jpg"
@@ -18,17 +17,18 @@ import meenakshi from "../assets/images/in-meenakshi.jpg"
 import hardhat from "../assets/images/in-hardhat.jpg"
 
 export const images = {
-  hero: heroIndustrial,
-  heroClassic: heroIndustrial,
+  hero: realSandblasting,
+  heroClassic: realSandblasting,
+  heroReal: realSandblasting,
   intro: pebSteel,
   peb: pebSteel,
   steelWarehouse: vizagSteel,
-  blasting: heroIndustrial,
-  blastingPpe: heroIndustrial,
-  blastingWide: sandblastingAction,
+  blasting: realSandblasting,
+  blastingPpe: realSandblasting,
+  blastingWide: realSandblasting,
   blastingStructure: steelFrame,
   blastingNavy: hardhat,
-  blastingBooth: sandblastingAction,
+  blastingBooth: realSandblasting,
   spray: sprayPainting,
   temple: templeBlasting,
   templeDetail: thanjavur,
