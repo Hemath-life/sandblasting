@@ -21,7 +21,7 @@ const VISUAL_SERVICES: VisualService[] = [
     id: "sandblasting",
     label: "Sand Blasting",
     subtitle: "High-Pressure Abrasive Blast (Sa 2.5 / Sa 3)",
-    image: images.hero3d,
+    image: images.hero,
     badge: "ISO 8501-1 Grade",
     stat: "120 PSI",
     statLabel: "Mobile Compressor",

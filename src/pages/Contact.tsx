@@ -12,8 +12,8 @@ export default function Contact() {
   return (
     <>
       <Seo
-        title="Contact GK Coating | Quote, Call & WhatsApp | Vellore"
-        description="Request a quote for sand blasting, spray painting, temple stone blasting or metallizing. Call or WhatsApp GK Coating in Thiruvalam, Vellore."
+        title="Contact GK Coating | Sand Blasting in Thiruvalam, Vellore, Ranipet"
+        description="Get an instant quote or schedule an on-site mobile sand blasting rig visit in Thiruvalam, Vellore, Ranipet SIPCOT & Tamil Nadu. Call or WhatsApp GK Coating."
         path="/contact"
       />
       <JsonLd />

@@ -12,8 +12,8 @@ export default function SprayPainting() {
   return (
     <>
       <Seo
-        title="Industrial Spray Painting in Vellore | GK Coating"
-        description="Industrial spray painting for prepared PEB structures, steel fabrication and metal components in Thiruvalam, Vellore."
+        title="Industrial Spray Painting in Vellore, Ranipet & Thiruvalam | Epoxy & PU Coating"
+        description="Airless spray painting, high-build epoxy primers and polyurethane topcoats for PEB structural steel and industrial fabrications in Thiruvalam, Vellore, Ranipet SIPCOT & Tamil Nadu."
         path={service.path}
       />
       <PageHero kicker="02 / Spray painting" title={service.title} body={service.heroSubtitle} image={service.image} />

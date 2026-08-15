@@ -12,8 +12,8 @@ export default function Metallizing() {
   return (
     <>
       <Seo
-        title="Metallizing in Vellore | Protective Metallic Coating | GK Coating"
-        description="Metallizing and protective metallic coating for prepared steel structures and industrial surfaces in Thiruvalam, Vellore."
+        title="Thermal Arc Spray Metallizing in Vellore & Ranipet | Zinc & Aluminium Coating"
+        description="Thermal arc spray metallizing (zinc & aluminum coating) for 25+ years anti-corrosion cathodic protection on industrial steel in Thiruvalam, Vellore, Ranipet & Tamil Nadu."
         path={service.path}
       />
       <PageHero kicker="04 / Metallizing" title={service.title} body={service.heroSubtitle} image={service.image} />

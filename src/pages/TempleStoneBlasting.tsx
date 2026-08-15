@@ -12,8 +12,8 @@ export default function TempleStoneBlasting() {
   return (
     <>
       <Seo
-        title="Temple Stone Blasting | GK Coating Vellore"
-        description="Controlled temple stone blasting and architectural stone surface treatment in Thiruvalam, Vellore, Tamil Nadu."
+        title="Temple Stone Blasting & Heritage Restoration in Vellore, Tamil Nadu"
+        description="Gentle, non-destructive micro-abrasive temple stone blasting, ancient granite carving cleaning and heritage restoration across Vellore, Thiruvalam & Tamil Nadu."
         path={service.path}
       />
       <PageHero kicker="03 / Stone" title={service.title} body={service.heroSubtitle} image={service.image} />
