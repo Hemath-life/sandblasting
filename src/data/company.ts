@@ -23,7 +23,7 @@ export function formatPhone(raw: string): Phone {
   }
 }
 
-export const siteUrl = env("VITE_SITE_URL", "https://www.gkcoating.in").replace(/\/$/, "")
+export const siteUrl = env("VITE_SITE_URL", "https://gkcoating.com").replace(/\/$/, "")
 
 export const phones: Phone[] = [
   formatPhone(env("VITE_PHONE_PRIMARY", "+918825669481")),
@@ -44,10 +44,10 @@ export const company = {
   tagline: "Surface Preparation & Protective Coating Solutions",
   supportingLine: "Prepare. Protect. Preserve.",
   description:
-    "Professional sand blasting, spray painting, temple stone blasting and metallizing solutions for PEB, steel structures and industrial surfaces.",
+    "Top-rated sand blasting, thermal arc spray metallizing, industrial spray painting and temple stone blasting in Thiruvalam, Vellore & Ranipet, Tamil Nadu — for PEB structures, structural steel and machinery.",
   gstin: env("VITE_GSTIN", "33DYCPP7577J1ZU"),
   location: env("VITE_LOCATION", "Thiruvalam, Vellore, Tamil Nadu"),
-  serviceArea: env("VITE_SERVICE_AREA", "Vellore and surrounding industrial areas"),
+  serviceArea: env("VITE_SERVICE_AREA", "Thiruvalam, Vellore, Ranipet SIPCOT, Katpadi, Ambur & Industrial Tamil Nadu"),
   address: {
     line1: env("VITE_ADDRESS_LINE1", "No. 437, Mariyamman Koil Street"),
     line2: env("VITE_ADDRESS_LINE2", "Kugainallur Post"),
