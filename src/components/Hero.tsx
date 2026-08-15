@@ -3,7 +3,7 @@ import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion
 import { ChevronDown } from "lucide-react"
 import { company } from "../data/company"
 import { images } from "../data/images"
-import { ButtonLink } from "./Buttons"
+import { ButtonAnchor, ButtonLink } from "./Buttons"
 import { ease } from "../lib/cn"
 
 export function Hero() {
@@ -17,8 +17,8 @@ export function Hero() {
       <motion.div style={{ y }} className="absolute inset-0">
         <img
           src={images.hero}
-          alt="Industrial worker in protective equipment preparing a large steel structure"
-          className="img-grade h-[120%] w-full object-cover"
+          alt="Worker in full abrasive-blasting PPE operating a blast nozzle on a steel surface"
+          className="img-grade h-[120%] w-full object-cover object-[center_30%]"
           fetchPriority="high"
         />
       </motion.div>
@@ -34,6 +34,10 @@ export function Hero() {
         >
           {company.eyebrow}
         </motion.p>
+        <p className="mt-3 text-sm font-extrabold tracking-[0.28em] text-white">GK COATING</p>
+        <p className="mt-2 max-w-xl text-[11px] uppercase tracking-[0.18em] text-offwhite/70">
+          Sand blasting · Spray painting · Temple stone blasting · Metallizing
+        </p>
         <motion.h1
           initial={reduce ? false : { opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
@@ -53,14 +57,27 @@ export function Hero() {
         >
           {company.description}
         </motion.p>
-        <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+        <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
           <ButtonLink to="/contact#quote">Get a Quote →</ButtonLink>
           <ButtonLink to="/services" variant="secondary">
             Explore Services
           </ButtonLink>
+          <ButtonAnchor href={company.primaryPhone.tel} variant="secondary">
+            Call now
+          </ButtonAnchor>
+          <ButtonAnchor href={company.whatsappUrl} variant="secondary" external>
+            WhatsApp us
+          </ButtonAnchor>
         </div>
         <p className="mt-8 text-[11px] uppercase tracking-[0.34em] text-offwhite/55">PEB • Steel • Metal • Stone</p>
-        <p className="mt-3 text-sm text-offwhite/60">{company.location}</p>
+        <p className="mt-3 text-sm text-offwhite/80">{company.location}</p>
+        <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+          {company.phones.map((phone) => (
+            <a key={phone.tel} href={phone.tel} className="font-semibold text-metal-light hover:text-brand">
+              {phone.label}
+            </a>
+          ))}
+        </div>
       </div>
       <div className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 md:block">
         <a href="#trust" className="flex flex-col items-center gap-2 text-[10px] uppercase tracking-[0.3em] text-offwhite/60">

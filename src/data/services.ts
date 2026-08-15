@@ -34,7 +34,7 @@ export const services: Service[] = [
       "Industrial components",
       "Machinery",
     ],
-    image: images.blasting,
+    image: images.blastingPpe,
     heroSubtitle: "Prepare the surface. Improve the foundation for the next coating stage.",
   },
   {

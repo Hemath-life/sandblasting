@@ -22,20 +22,30 @@ export function Introduction() {
             title="Surface preparation that gives every coating a stronger foundation."
           />
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink/75">
-            GK Coating provides professional surface preparation and coating services for steel
-            structures, PEB structures, metal components and other industrial surfaces in{" "}
-            {company.location}.
+            GK Coating provides professional sand blasting, spray painting, temple stone blasting and
+            metallizing in Thiruvalam, Vellore, Tamil Nadu — for steel structures, PEB structures, metal
+            components and other industrial surfaces.
           </p>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-ink/75">
             Proper preparation can help remove rust, old coatings, mill scale, dirt, oxidation and
             surface contaminants, and prepares surfaces for subsequent protective coating operations.
           </p>
+          <ul className="mt-6 flex flex-wrap gap-2">
+            {company.applications.map((item) => (
+              <li
+                key={item}
+                className="border border-black/10 bg-white px-3 py-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-brand-dark"
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
         </div>
         <div className="relative lg:col-span-6 lg:col-start-7 lg:-mt-10">
           <div className="absolute -left-6 top-8 hidden h-24 w-px bg-metal lg:block" />
           <img
             src={images.intro}
-            alt="Industrial fabrication environment with steel components ready for surface treatment"
+            alt="Sand blasting operator in full protective gear using an abrasive blast hose"
             className="img-grade h-[460px] w-full rounded-2xl object-cover"
             loading="lazy"
           />
@@ -69,7 +79,7 @@ export function PebFeature() {
     <section className="relative overflow-hidden py-24 md:py-32">
       <img
         src={images.peb}
-        alt="Large PEB steel structure in an industrial fabrication environment"
+        alt="Structural steel and PEB-scale steel erection in an industrial yard"
         className="img-grade absolute inset-0 h-full w-full object-cover"
         loading="lazy"
       />
@@ -130,8 +140,9 @@ export function ProcessSection() {
     <section className="steel-grid bg-mist py-20 text-graphite md:py-28">
       <div className="container-site">
         <SectionHeading
-          kicker="05 / Our process"
-          title="A clear path from surface condition to finished preparation."
+          kicker="05 / Process"
+          title="Our process"
+          body="A clear path from surface condition to finished preparation."
         />
         <ProcessSteps />
       </div>
@@ -143,7 +154,11 @@ export function ApplicationsSection() {
   return (
     <section className="bg-offwhite py-20 text-graphite md:py-28">
       <div className="container-site">
-        <SectionHeading kicker="06 / Applications" title="Where our services fit" />
+        <SectionHeading
+          kicker="06 / Applications"
+          title="Where our services fit"
+          body="Sand blasting and coating work for PEB, structural steel, fabrication, machinery, metal components and temple stone."
+        />
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {applications.map((item) => (
             <Link
@@ -169,20 +184,33 @@ export function ApplicationsSection() {
 export function WhyPrep() {
   const stages = [
     "Contaminated surface",
-    "Surface preparation",
+    "Blasting / preparation",
     "Clean / profiled surface",
     "Protective coating",
+    "Finished result",
   ]
   return (
     <section className="bg-graphite py-20 md:py-28">
-      <div className="container-site grid gap-12 lg:grid-cols-2">
-        <SectionHeading
-          light
-          kicker="07 / Why it matters"
-          title="Why surface preparation matters"
-          body="The quality of a coating system starts with the condition of the surface beneath it. GK Coating positions every project around this sequence: inspect the existing surface, prepare it, then apply the specified coating stage."
-        />
-        <ol className="border border-white/10 bg-charcoal p-8">
+      <div className="container-site grid gap-12 lg:grid-cols-12">
+        <div className="lg:col-span-5">
+          <SectionHeading
+            light
+            kicker="07 / Why it matters"
+            title="Why surface preparation matters"
+            body="The quality of a coating system starts with the condition of the surface beneath it."
+          />
+          <p className="mt-5 max-w-xl text-offwhite/70">
+            GK Coating is not only a painting service. Work is organised around surface preparation plus
+            protective coating — sand blasting in Vellore and Thiruvalam, then the specified coating stage.
+          </p>
+          <img
+            src={images.blastingPpe}
+            alt="Close view of a sand blasting operator in a supplied-air blast helmet"
+            className="img-grade mt-8 h-64 w-full rounded-2xl object-cover"
+            loading="lazy"
+          />
+        </div>
+        <ol className="border border-white/10 bg-charcoal p-8 lg:col-span-7">
           {stages.map((stage, index) => (
             <li key={stage} className="flex gap-5 border-b border-white/10 py-5 last:border-0">
               <span className="text-metal-light">0{index + 1}</span>
@@ -213,7 +241,7 @@ export function AboutBlock() {
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-ink/75">
             GK Coating is based in Thiruvalam, Vellore, Tamil Nadu and provides surface treatment
             and coating-related services for industrial and architectural applications across Vellore
-            and surrounding industrial areas.
+            and surrounding industrial areas. Proprietor {company.proprietor}.
           </p>
           <ul className="mt-6 grid gap-2 text-sm font-semibold uppercase tracking-[0.16em] text-brand-dark">
             {services.map((s) => (
@@ -245,7 +273,7 @@ export function BusinessCard() {
       <div className="mt-6 space-y-2">
         {company.phones.map((phone) => (
           <a key={phone.tel} href={phone.tel} className="block text-lg font-bold text-metal-light">
-            {phone.display}
+            {phone.label}
           </a>
         ))}
       </div>
@@ -302,7 +330,12 @@ export function GallerySection() {
   return (
     <section className="bg-graphite py-20 md:py-28">
       <div className="container-site">
-        <SectionHeading light kicker="08 / Projects" title="Selected industrial surfaces" />
+        <SectionHeading
+          light
+          kicker="08 / Projects"
+          title="Project gallery"
+          body="Sand blasting, rust removal, spray painting, metallizing and temple stone work — representative industrial surfaces."
+        />
         <div className="mt-12">
           <Gallery />
         </div>

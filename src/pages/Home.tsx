@@ -9,6 +9,7 @@ import {
   Introduction,
   PebFeature,
   ProcessSection,
+  FinalCta,
   QuoteSection,
   ServicesSection,
   WhyPrep,
@@ -37,6 +38,7 @@ export default function Home() {
       <AboutBlock />
       <ContactCta />
       <QuoteSection />
+      <FinalCta />
     </>
   )
 }

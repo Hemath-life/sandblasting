@@ -9,13 +9,13 @@ export type Project = {
 
 export const projects: Project[] = [
   { id: "peb-steel", title: "PEB Steel Structure", category: "PEB / Steel", image: images.peb },
-  { id: "structural", title: "Structural Steel Blasting", category: "Sand Blasting", image: images.steelFrame },
+  { id: "structural", title: "Structural Steel Blasting", category: "Sand Blasting", image: images.blastingWide },
   { id: "rust", title: "Rust Removal", category: "Surface Preparation", image: images.rust },
-  { id: "spray", title: "Industrial Spray Painting", category: "Spray Painting", image: images.paintBooth },
-  { id: "prep", title: "Metal Surface Preparation", category: "Preparation", image: images.cleanSteel },
+  { id: "spray", title: "Industrial Spray Painting", category: "Spray Painting", image: images.spray },
+  { id: "prep", title: "Metal Surface Preparation", category: "Sand Blasting", image: images.blasting },
   { id: "metallizing", title: "Metallizing", category: "Protective Coating", image: images.metallizing },
-  { id: "temple", title: "Temple Stone Blasting", category: "Stone", image: images.indiaTemple },
-  { id: "finished", title: "Finished Steel Structure", category: "Completed Work", image: images.steelWarehouse },
+  { id: "temple", title: "Temple Stone Blasting", category: "Stone", image: images.temple },
+  { id: "finished", title: "Finished Steel Structure", category: "Completed Work", image: images.blastingStructure },
 ]
 
 export const applications = [

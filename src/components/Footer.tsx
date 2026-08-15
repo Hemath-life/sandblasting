@@ -54,13 +54,15 @@ export function Footer() {
             ))}
           </ul>
           <address className="mt-5 text-sm not-italic leading-relaxed text-offwhite/65">
-            {company.address.line1}
+            {company.address.line1},
             <br />
-            {company.address.line2}
+            {company.address.line2},
             <br />
             Thiruvalam,
             <br />
-            Vellore District – 632515.
+            Vellore District – 632515,
+            <br />
+            Tamil Nadu, India.
           </address>
         </div>
       </div>

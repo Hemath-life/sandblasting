@@ -1,26 +1,48 @@
-export function unsplash(id: string, width = 1600): string {
-  return `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=72`
-}
+import blastHero from "../assets/images/blast-ppe-hero.jpg"
+import blastNara from "../assets/images/blast-steel-nara.jpg"
+import blastStructure from "../assets/images/blast-structure.jpg"
+import blastNavy from "../assets/images/blast-navy.jpg"
+import blastClose from "../assets/images/blast-close.jpg"
+import blastHbeam from "../assets/images/blast-hbeam.jpg"
+import blastPipe from "../assets/images/blast-pipe.jpg"
+import blastBooth from "../assets/images/blast-booth.jpg"
+import blastDefense from "../assets/images/blast-defense.jpg"
+import metallizingArc from "../assets/images/metallizing-arc.jpg"
+import metallizingHvaf from "../assets/images/metallizing-hvaf.jpg"
+import sprayProtective from "../assets/images/spray-protective.jpg"
+import rustPlate from "../assets/images/rust-plate.jpg"
+import pebMill from "../assets/images/peb-mill.jpg"
+import pebFactory from "../assets/images/peb-factory.jpg"
+import steelFab from "../assets/images/steel-fab.jpg"
+import templeMadurai from "../assets/images/temple-madurai.jpg"
+import templeStone from "../assets/images/temple-stone.jpg"
 
 export const images = {
-  hero: unsplash("photo-1504328345606-18bbc8c9d7d1", 2000),
-  intro: unsplash("photo-1581094794329-c8112a89af12", 1400),
-  peb: unsplash("photo-1590496793929-36417d3117de", 2000),
-  steelWarehouse: unsplash("photo-1558618666-fcd25c85cd64", 1800),
-  blasting: unsplash("photo-1504917595217-d4dc5ebe6122", 1400),
-  spray: unsplash("photo-1562259949-e8e7689d7828", 1400),
-  temple: unsplash("photo-1582510003544-4d00b8f6fce1", 1400),
-  metallizing: unsplash("photo-1565793298595-6a879b1d9492", 1400),
-  rust: unsplash("photo-1535813548835-931f2cf3d5f4", 1400),
-  cleanSteel: unsplash("photo-1518709268805-4e9042af9f23", 1400),
-  fabrication: unsplash("photo-1503387762-592deb58ef4e", 1400),
-  machinery: unsplash("photo-1581092160562-40aa08e78837", 1400),
-  components: unsplash("photo-1581092918056-0c4c3acd3789", 1400),
-  steelFrame: unsplash("photo-1503387837-b154d5074bd2", 1400),
-  mill: unsplash("photo-1489515217757-5fd1be406fef", 1400),
-  rustClose: unsplash("photo-1578662996442-48f60103fc96", 1400),
-  paintBooth: unsplash("photo-1621905251189-08b45d6a269e", 1400),
-  metalTexture: unsplash("photo-1611273426858-450d8e3c9fce", 1400),
-  indiaTemple: unsplash("photo-1524492412937-b28074a5d7f5", 1400),
-  cta: unsplash("photo-1581091226825-a6a2a5aee158", 1800),
+  hero: blastDefense,
+  intro: blastHero,
+  peb: steelFab,
+  steelWarehouse: pebMill,
+  blasting: blastClose,
+  blastingPpe: blastHero,
+  blastingWide: blastNara,
+  blastingStructure: blastStructure,
+  blastingNavy: blastNavy,
+  blastingBooth: blastBooth,
+  spray: sprayProtective,
+  temple: templeMadurai,
+  templeDetail: templeStone,
+  metallizing: metallizingHvaf,
+  metallizingArc,
+  rust: rustPlate,
+  cleanSteel: blastHbeam,
+  fabrication: steelFab,
+  machinery: blastPipe,
+  components: blastNavy,
+  steelFrame: blastStructure,
+  mill: pebFactory,
+  rustClose: rustPlate,
+  paintBooth: sprayProtective,
+  metalTexture: metallizingArc,
+  indiaTemple: templeStone,
+  cta: blastNara,
 } as const
