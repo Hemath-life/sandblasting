@@ -17,8 +17,8 @@ export function Hero() {
       <motion.div style={{ y }} className="absolute inset-0">
         <img
           src={images.hero}
-          alt="Structural steel work on an industrial building site in India"
-          className="img-grade h-[120%] w-full object-cover object-[center_30%]"
+          alt="Operator sandblasting industrial steel beam removing rust and surface contaminants"
+          className="img-grade h-[120%] w-full object-cover object-[center_35%]"
           fetchPriority="high"
         />
       </motion.div>

@@ -1,3 +1,4 @@
+import heroBlasting from "../assets/images/hero-blasting.jpg"
 import vizagSteel from "../assets/images/in-vizag-steel.jpg"
 import bokaro from "../assets/images/in-bokaro.jpg"
 import rourkela from "../assets/images/in-rourkela.jpg"
@@ -20,7 +21,7 @@ import hardhat from "../assets/images/in-hardhat.jpg"
 import ppeCrew from "../assets/images/in-ppe-crew.jpg"
 
 export const images = {
-  hero: steelFrame,
+  hero: heroBlasting,
   intro: ppeCrew,
   peb: ambattur,
   steelWarehouse: vizagSteel,
