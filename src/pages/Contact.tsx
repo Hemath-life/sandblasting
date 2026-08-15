@@ -27,14 +27,11 @@ export default function Contact() {
       <section className="container-site grid gap-12 py-16 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <BusinessCard />
-          <div className="mt-6 space-y-3 text-sm text-offwhite/70">
-            {company.phones.map((phone) => (
-              <p key={phone.tel}>
-                <a className="text-metal-light hover:text-brand" href={phone.tel}>
-                  {phone.label}
-                </a>
-              </p>
-            ))}
+          <div className="mt-6 rounded-xl border border-white/10 bg-charcoal/70 p-4 text-xs text-offwhite/80 space-y-2">
+            <p className="font-bold text-metal-light uppercase tracking-wider text-[11px]">Working Hours &amp; Response:</p>
+            <p>• Monday – Saturday: 8:00 AM – 8:00 PM</p>
+            <p>• 24/7 Mobile Sand Blasting Rig for Emergency Industrial Shutdowns</p>
+            <p>• Fast response via WhatsApp for technical specs &amp; photo estimates</p>
           </div>
         </div>
         <div className="lg:col-span-7">
