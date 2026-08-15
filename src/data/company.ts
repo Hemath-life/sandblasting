@@ -23,7 +23,7 @@ export function formatPhone(raw: string): Phone {
   }
 }
 
-export const siteUrl = env("VITE_SITE_URL", "https://www.gkcoating.in").replace(/\/$/, "")
+export const siteUrl = env("VITE_SITE_URL", "https://www.gkcoatings.in").replace(/\/$/, "")
 
 export const phones: Phone[] = [
   formatPhone(env("VITE_PHONE_PRIMARY", "+918825669481")),
@@ -32,16 +32,16 @@ export const phones: Phone[] = [
 
 const whatsappMessage = env(
   "VITE_WHATSAPP_MESSAGE",
-  "Hello GK Coating, I would like to enquire about your sand blasting / coating services.",
+  "Hello GK Coatings, I would like to enquire about your sand blasting / coatings services.",
 )
 const whatsappNumber = env("VITE_WHATSAPP_NUMBER", "918825669481").replace(/\D/g, "")
 
 export const company = {
-  name: env("VITE_COMPANY_NAME", "GK COATING"),
-  shortName: env("VITE_COMPANY_SHORT_NAME", "GK Coating"),
+  name: env("VITE_COMPANY_NAME", "GK COATINGS"),
+  shortName: env("VITE_COMPANY_SHORT_NAME", "GK Coatings"),
   proprietor: env("VITE_PROPRIETOR", "Praveen Kumar K."),
   eyebrow: "SURFACE PREPARATION & PROTECTIVE COATINGS",
-  tagline: "Surface Preparation & Protective Coating Solutions",
+  tagline: "Surface Preparation & Protective Coatings Solutions",
   supportingLine: "Prepare. Protect. Preserve.",
   description:
     "Professional sand blasting, spray painting, temple stone blasting and metallizing solutions for PEB, steel structures and industrial surfaces.",
@@ -84,7 +84,7 @@ export const company = {
     "Metal surfaces",
     "Machinery and equipment",
     "Rust removal",
-    "Old coating removal",
+    "Old coatings removal",
     "Surface preparation",
     "Temple stone surfaces",
   ],

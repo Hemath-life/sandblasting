@@ -24,9 +24,9 @@ export const services: Service[] = [
     number: "01",
     title: "Sand Blasting",
     path: "/services/sand-blasting",
-    short: "Professional abrasive blasting for cleaning and preparing metal surfaces before coating.",
+    short: "Professional abrasive blasting for cleaning and preparing metal surfaces before coatings.",
     description:
-      "Abrasive blasting is used to remove rust, old coatings, mill scale and surface contaminants from suitable metal surfaces, creating a cleaner profile for the next coating stage.",
+      "Abrasive blasting is used to remove rust, old coatings, mill scale and surface contaminants from suitable metal surfaces, creating a cleaner profile for the next coatings stage.",
     applications: [
       "PEB structures",
       "Structural steel",
@@ -35,7 +35,7 @@ export const services: Service[] = [
       "Machinery",
     ],
     image: images.blastingPpe,
-    heroSubtitle: "Prepare the surface. Improve the foundation for the next coating stage.",
+    heroSubtitle: "Prepare the surface. Improve the foundation for the next coatings stage.",
   },
   {
     id: "spray-painting",
@@ -44,7 +44,7 @@ export const services: Service[] = [
     path: "/services/spray-painting",
     short: "Professional spray painting for industrial structures and prepared metal surfaces.",
     description:
-      "Industrial spray painting is applied to prepared steel and metal surfaces to provide a uniform protective or specified finish coat as part of a broader coating sequence.",
+      "Industrial spray painting is applied to prepared steel and metal surfaces to provide a uniform protective or specified finish coat as part of a broader coatings sequence.",
     applications: [
       "Steel structures",
       "Fabricated components",
@@ -76,7 +76,7 @@ export const services: Service[] = [
     number: "04",
     title: "Metallizing",
     path: "/services/metallizing",
-    short: "Protective metallic coating solutions for steel and industrial surfaces.",
+    short: "Protective metallic coatings solutions for steel and industrial surfaces.",
     description:
       "Metallizing applies a metallic coating to a suitably prepared steel surface as part of a corrosion-protection system. Performance depends on surface condition, specification and site requirements.",
     applications: [
@@ -86,7 +86,7 @@ export const services: Service[] = [
       "Corrosion protection systems",
     ],
     image: images.metallizing,
-    heroSubtitle: "Metallic coating systems for suitably prepared steel surfaces.",
+    heroSubtitle: "Metallic coatings systems for suitably prepared steel surfaces.",
   },
 ]
 
