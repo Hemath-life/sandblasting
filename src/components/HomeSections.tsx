@@ -45,7 +45,7 @@ export function Introduction() {
           <div className="absolute -left-6 top-8 hidden h-24 w-px bg-metal lg:block" />
           <img
             src={images.intro}
-            alt="Sand blasting operator in full protective gear using an abrasive blast hose"
+            alt="Indian industrial crew in safety helmets on a worksite"
             className="img-grade h-[460px] w-full rounded-2xl object-cover"
             loading="lazy"
           />
@@ -79,7 +79,7 @@ export function PebFeature() {
     <section className="relative overflow-hidden py-24 md:py-32">
       <img
         src={images.peb}
-        alt="Structural steel and PEB-scale steel erection in an industrial yard"
+        alt="Industrial buildings and steel structures in an Indian fabrication setting"
         className="img-grade absolute inset-0 h-full w-full object-cover"
         loading="lazy"
       />
@@ -205,7 +205,7 @@ export function WhyPrep() {
           </p>
           <img
             src={images.blastingPpe}
-            alt="Close view of a sand blasting operator in a supplied-air blast helmet"
+            alt="Industrial crew in helmets at an Indian construction site"
             className="img-grade mt-8 h-64 w-full rounded-2xl object-cover"
             loading="lazy"
           />

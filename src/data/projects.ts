@@ -15,7 +15,7 @@ export const projects: Project[] = [
   { id: "prep", title: "Metal Surface Preparation", category: "Sand Blasting", image: images.blasting },
   { id: "metallizing", title: "Metallizing", category: "Protective Coating", image: images.metallizing },
   { id: "temple", title: "Temple Stone Blasting", category: "Stone", image: images.temple },
-  { id: "finished", title: "Finished Steel Structure", category: "Completed Work", image: images.blastingStructure },
+  { id: "finished", title: "Finished Steel Structure", category: "Completed Work", image: images.steelWarehouse },
 ]
 
 export const applications = [

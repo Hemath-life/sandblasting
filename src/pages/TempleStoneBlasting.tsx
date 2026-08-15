@@ -51,7 +51,7 @@ export default function TempleStoneBlasting() {
           </div>
           <img
             src={images.indiaTemple}
-            alt="South Indian temple stone architecture"
+            alt="Jalakandeswarar Temple stone architecture in Vellore, Tamil Nadu"
             className="img-grade h-full min-h-[360px] w-full rounded-2xl object-cover"
             loading="lazy"
           />
