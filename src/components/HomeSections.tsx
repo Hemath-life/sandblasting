@@ -323,36 +323,7 @@ export function ContactCta() {
 }
 
 export function LocalServiceAreasSection() {
-  const areas = [
-    {
-      name: "Chennai & Northern Corridor",
-      badge: "Automotive & Heavy Industry",
-      distance: "Statewide Fleet",
-      desc: "Comprehensive mobile blasting and coating rig service for industrial zones across Chennai, Sriperumbudur, Oragadam, Kanchipuram, and Tiruvallur.",
-      services: ["Heavy PEB Warehouses", "Automotive Fixtures", "Chemical & Storage Tanks"],
-    },
-    {
-      name: "Coimbatore, Salem & Hosur",
-      badge: "Western Industrial Belt",
-      distance: "Statewide Fleet",
-      desc: "High-pressure abrasive profiling and thermal arc metallizing for foundries, precision machinery, textile frames, and steel fabrication yards.",
-      services: ["Foundry Casting Cleaning", "Thermal Arc Metallizing", "Structural Frame Coating"],
-    },
-    {
-      name: "Trichy, Madurai & South TN",
-      badge: "Boiler & Marine Corridors",
-      distance: "Statewide Fleet",
-      desc: "Specialized surface preparation for high-pressure boilers, piping networks, industrial silos, marine tanks, and heritage temple stone restoration.",
-      services: ["Boiler & Vessel Blasting", "Pipe Internal Profiling", "Temple Stone Restoration"],
-    },
-    {
-      name: "Ranipet & Vellore (Central Yard)",
-      badge: "Main Yard & Rig Hub",
-      distance: "Central Blast Facility",
-      desc: "Our central facility on Mariyamman Koil St, Thiruvalam plus dedicated on-site mobile compressor units serving Ranipet SIPCOT Phases 1-3, Katpadi, and Ambur.",
-      services: ["In-House Blast Booth", "24/7 Mobile Rig Dispatch", "Airless Spray Painting"],
-    },
-  ]
+  const areas = serviceRegions
 
   return (
     <section className="bg-graphite border-t border-white/10 py-20 md:py-28">
