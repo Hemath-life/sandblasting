@@ -13,7 +13,7 @@ export default function SandBlasting() {
   return (
     <>
       <Seo
-        title="Sand Blasting in Vellore | GK Coating Thiruvalam"
+        title="Sand Blasting in Vellore | GK Coatings Thiruvalam"
         description="Professional sand blasting and metal surface preparation for PEB structures, structural steel and industrial components in Thiruvalam, Vellore."
         path={service.path}
       />
@@ -32,13 +32,13 @@ export default function SandBlasting() {
             <p className="mt-4 leading-relaxed text-ink/75">
               Sand blasting — more broadly, abrasive blasting — uses compressed air and a selected abrasive
               media to clean and profile metal surfaces. It is commonly used before painting, metallizing or
-              other protective coating stages.
+              other protective coatings stages.
             </p>
             <h2 className="mt-10 text-3xl font-extrabold">Why surface preparation matters</h2>
             <p className="mt-4 leading-relaxed text-ink/75">
               Coatings bond to the surface they are applied to. Rust, mill scale, old paint and contaminants
               can interfere with that bond. Preparation is therefore the first practical step, not an optional
-              extra. GK Coating does not claim specific blast grades or coating life unless they are defined
+              extra. GK Coatings does not claim specific blast grades or coatings life unless they are defined
               in a project specification.
             </p>
             <h2 className="mt-10 text-3xl font-extrabold">Suitable applications</h2>
@@ -50,10 +50,10 @@ export default function SandBlasting() {
             <h2 className="mt-10 text-3xl font-extrabold">PEB structures &amp; structural steel</h2>
             <p className="mt-4 leading-relaxed text-ink/75">
               Pre-engineered buildings and structural steel assemblies often need large-area cleaning before
-              protective coating. Blasting can be used on beams, columns, fabricated frames and related metal
+              protective coatings. Blasting can be used on beams, columns, fabricated frames and related metal
               components where the material and site conditions are suitable.
             </p>
-            <h2 className="mt-10 text-3xl font-extrabold">Rust and coating removal</h2>
+            <h2 className="mt-10 text-3xl font-extrabold">Rust and coatings removal</h2>
             <p className="mt-4 leading-relaxed text-ink/75">
               Where rust or an existing coating must be removed, blasting is one of the methods used to return
               the surface to a condition that is ready for the next specified operation.
@@ -61,7 +61,7 @@ export default function SandBlasting() {
             <h2 className="mt-10 text-3xl font-extrabold">Surface preparation workflow</h2>
             <p className="mt-4 leading-relaxed text-ink/75">
               Inspect the existing condition, select an appropriate preparation approach, blast as applicable,
-              then hand the surface over for coating or finishing.
+              then hand the surface over for coatings or finishing.
             </p>
           </div>
           <div className="lg:col-span-5">
@@ -79,7 +79,7 @@ export default function SandBlasting() {
             <h2 className="text-3xl font-extrabold">Before / after</h2>
             <p className="mt-4 text-ink/75">
               The comparison shows the difference between a contaminated metal surface and a cleaned surface
-              prepared for the next coating stage.
+              prepared for the next coatings stage.
             </p>
           </div>
         </div>

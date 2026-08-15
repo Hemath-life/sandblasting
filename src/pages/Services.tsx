@@ -10,8 +10,8 @@ export default function Services() {
   return (
     <>
       <Seo
-        title="Services | Sand Blasting, Spray Painting, Metallizing | GK Coating"
-        description="Explore GK Coating services: sand blasting, spray painting, temple stone blasting and metallizing for PEB, steel and industrial surfaces in Vellore."
+        title="Services | Sand Blasting, Spray Painting, Metallizing | GK Coatings"
+        description="Explore GK Coatings services: sand blasting, spray painting, temple stone blasting and metallizing for PEB, steel and industrial surfaces in Vellore."
         path="/services"
       />
       <PageHero
