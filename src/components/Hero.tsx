@@ -17,13 +17,13 @@ export function Hero() {
       <motion.div style={{ y }} className="absolute inset-0">
         <img
           src={images.hero}
-          alt="Operator sandblasting industrial steel beam removing rust and surface contaminants"
-          className="img-grade h-[120%] w-full object-cover object-[center_35%]"
+          alt="Industrial operator in protective gear sandblasting structural steel beam with high-pressure abrasive media"
+          className="h-[120%] w-full object-cover object-[center_35%] filter brightness-[0.92] contrast-[1.05]"
           fetchPriority="high"
         />
       </motion.div>
-      <div className="absolute inset-0 bg-gradient-to-r from-graphite via-graphite/78 to-graphite/35" />
-      <div className="absolute inset-0 bg-gradient-to-t from-graphite via-transparent to-graphite/40" />
+      <div className="absolute inset-0 bg-gradient-to-r from-graphite/95 via-graphite/80 to-graphite/35 lg:to-graphite/15" />
+      <div className="absolute inset-0 bg-gradient-to-t from-graphite via-transparent to-graphite/45" />
       {!reduce ? <Dust /> : null}
       <div className="container-site relative flex min-h-[75vh] flex-col justify-end pb-20 pt-32 md:min-h-screen md:justify-center md:pb-0">
         <motion.p
