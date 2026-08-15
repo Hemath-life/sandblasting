@@ -139,17 +139,17 @@ export function Hero() {
             <img
               src={activeSlide.image}
               alt={activeSlide.title}
-              className="h-full w-full object-cover object-[center_35%] filter brightness-[0.88] contrast-[1.08]"
+              className="h-full w-full object-cover object-[center_35%] filter brightness-[1.0] contrast-[1.04] saturate-[1.05]"
               fetchPriority="high"
             />
           </motion.div>
         </AnimatePresence>
       </motion.div>
 
-      {/* Cinematic Directional Gradients for Maximum Readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-graphite/95 via-graphite/85 via-45% to-graphite/35 lg:to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-graphite via-transparent to-graphite/60" />
-      <div className="pointer-events-none absolute right-1/4 top-1/3 h-[500px] w-[500px] rounded-full bg-metal/10 blur-[130px] opacity-70" />
+      {/* Subtle Directional Gradients for Image Clarity & Text Readability */}
+      <div className="absolute inset-0 bg-gradient-to-r from-graphite/88 via-graphite/45 via-40% to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-graphite/80 via-transparent to-graphite/35" />
+      <div className="pointer-events-none absolute right-1/4 top-1/3 h-[500px] w-[500px] rounded-full bg-metal/10 blur-[140px] opacity-50" />
 
       {!reduce && <GlowingSparks />}
 
