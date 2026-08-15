@@ -20,8 +20,8 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="GK Coatings | Sand Blasting, Spray Painting & Metallizing in Vellore"
-        description="GK Coatings provides sand blasting, spray painting, temple stone blasting and metallizing services for PEB, steel structures and industrial metal surfaces in Thiruvalam, Vellore, Tamil Nadu."
+        title="GK Coating | Sand Blasting, Spray Painting & Metallizing in Vellore"
+        description="GK Coating provides sand blasting, spray painting, temple stone blasting and metallizing services for PEB, steel structures and industrial metal surfaces in Thiruvalam, Vellore, Tamil Nadu."
         path="/"
       />
       <JsonLd />

@@ -12,7 +12,7 @@ export default function TempleStoneBlasting() {
   return (
     <>
       <Seo
-        title="Temple Stone Blasting | GK Coatings Vellore"
+        title="Temple Stone Blasting | GK Coating Vellore"
         description="Controlled temple stone blasting and architectural stone surface treatment in Thiruvalam, Vellore, Tamil Nadu."
         path={service.path}
       />
@@ -45,7 +45,7 @@ export default function TempleStoneBlasting() {
             </p>
             <h2 className="mt-10 text-3xl font-extrabold">Controlled treatment</h2>
             <p className="mt-4 leading-relaxed text-ink/75">
-              Pressure, media and coverage are treated as project decisions. GK Coatings does not claim
+              Pressure, media and coverage are treated as project decisions. GK Coating does not claim
               restoration certifications or guaranteed historic outcomes.
             </p>
           </div>

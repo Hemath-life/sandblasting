@@ -12,14 +12,14 @@ export default function Contact() {
   return (
     <>
       <Seo
-        title="Contact GK Coatings | Quote, Call & WhatsApp | Vellore"
-        description="Request a quote for sand blasting, spray painting, temple stone blasting or metallizing. Call or WhatsApp GK Coatings in Thiruvalam, Vellore."
+        title="Contact GK Coating | Quote, Call & WhatsApp | Vellore"
+        description="Request a quote for sand blasting, spray painting, temple stone blasting or metallizing. Call or WhatsApp GK Coating in Thiruvalam, Vellore."
         path="/contact"
       />
       <JsonLd />
       <PageHero
         kicker="Contact"
-        title="Talk to GK Coatings"
+        title="Talk to GK Coating"
         body="Call, WhatsApp or send a quote request. Tell us the surface, the location and the service you need."
         image={images.cta}
       />
@@ -49,7 +49,7 @@ export default function Contact() {
         <p className="mt-3 max-w-2xl text-offwhite/70">{company.address.full}</p>
         <div className="mt-6 overflow-hidden rounded-2xl border border-white/10">
           <iframe
-            title="GK Coatings location map"
+            title="GK Coating location map"
             src={map}
             className="h-[360px] w-full grayscale"
             loading="lazy"

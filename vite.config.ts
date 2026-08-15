@@ -17,7 +17,7 @@ const routes = [
 ]
 
 function seoFiles(siteUrl: string): Plugin {
-  const origin = siteUrl.replace(/\/$/, '') || 'https://www.gkcoatings.in'
+  const origin = siteUrl.replace(/\/$/, '') || 'https://www.gkcoating.in'
   return {
     name: 'gk-seo-files',
     generateBundle() {

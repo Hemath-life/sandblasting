@@ -1,6 +1,6 @@
-# GK Coatings
+# GK Coating
 
-Premium industrial website for **GK Coatings** — sand blasting, spray painting, temple stone blasting and metallizing in Thiruvalam, Vellore, Tamil Nadu.
+Premium industrial website for **GK Coating** — sand blasting, spray painting, temple stone blasting and metallizing in Thiruvalam, Vellore, Tamil Nadu.
 
 ## Stack
 

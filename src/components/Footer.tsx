@@ -68,7 +68,7 @@ export function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="container-site flex flex-col gap-2 py-6 text-[12px] text-offwhite/50 sm:flex-row sm:justify-between">
-          <p>© 2026 GK Coatings. All rights reserved.</p>
+          <p>© 2026 GK Coating. All rights reserved.</p>
           <p>GSTIN {company.gstin}</p>
         </div>
       </div>

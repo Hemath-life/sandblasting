@@ -11,24 +11,24 @@ export default function About() {
   return (
     <>
       <Seo
-        title="About GK Coatings | Surface Preparation in Thiruvalam, Vellore"
-        description="GK Coatings is a surface preparation and protective coatings company in Thiruvalam, Vellore, led by proprietor Praveen Kumar K."
+        title="About GK Coating | Surface Preparation in Thiruvalam, Vellore"
+        description="GK Coating is a surface preparation and protective coating company in Thiruvalam, Vellore, led by proprietor Praveen Kumar K."
         path="/about"
       />
       <JsonLd />
       <PageHero
         kicker="About"
         title="Professional surface preparation for demanding surfaces"
-        body="GK Coatings is based in Thiruvalam, Vellore, Tamil Nadu and provides surface treatment and coatings-related services for industrial and architectural applications."
+        body="GK Coating is based in Thiruvalam, Vellore, Tamil Nadu and provides surface treatment and coating-related services for industrial and architectural applications."
         image={images.intro}
       />
       <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "About" }]} />
       <section className="bg-offwhite py-16 text-graphite md:py-24">
         <div className="container-site grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-7">
-            <h2 className="text-3xl font-extrabold">GK Coatings</h2>
+            <h2 className="text-3xl font-extrabold">GK Coating</h2>
             <p className="mt-5 leading-relaxed text-ink/75">
-              The company is positioned around surface preparation plus protective coatings — not painting
+              The company is positioned around surface preparation plus protective coating — not painting
               alone. Work covers sand blasting, spray painting, temple stone blasting and metallizing for PEB
               structures, structural steel, metal components and suitable stone surfaces.
             </p>

@@ -34,7 +34,7 @@ export function Hero() {
         >
           {company.eyebrow}
         </motion.p>
-        <p className="mt-3 text-sm font-extrabold tracking-[0.28em] text-white">GK COATINGS</p>
+        <p className="mt-3 text-sm font-extrabold tracking-[0.28em] text-white">GK COATING</p>
         <p className="mt-2 max-w-xl text-[11px] uppercase tracking-[0.18em] text-offwhite/70">
           Sand blasting · Spray painting · Temple stone blasting · Metallizing
         </p>

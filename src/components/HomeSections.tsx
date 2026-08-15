@@ -22,13 +22,13 @@ export function Introduction() {
             title="Surface preparation that gives every coating a stronger foundation."
           />
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink/75">
-            GK Coatings provides professional sand blasting, spray painting, temple stone blasting and
+            GK Coating provides professional sand blasting, spray painting, temple stone blasting and
             metallizing in Thiruvalam, Vellore, Tamil Nadu — for steel structures, PEB structures, metal
             components and other industrial surfaces.
           </p>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-ink/75">
             Proper preparation can help remove rust, old coatings, mill scale, dirt, oxidation and
-            surface contaminants, and prepares surfaces for subsequent protective coatings operations.
+            surface contaminants, and prepares surfaces for subsequent protective coating operations.
           </p>
           <ul className="mt-6 flex flex-wrap gap-2">
             {company.applications.map((item) => (
@@ -157,7 +157,7 @@ export function ApplicationsSection() {
         <SectionHeading
           kicker="06 / Applications"
           title="Where our services fit"
-          body="Sand blasting and coatings work for PEB, structural steel, fabrication, machinery, metal components and temple stone."
+          body="Sand blasting and coating work for PEB, structural steel, fabrication, machinery, metal components and temple stone."
         />
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {applications.map((item) => (
@@ -186,7 +186,7 @@ export function WhyPrep() {
     "Contaminated surface",
     "Blasting / preparation",
     "Clean / profiled surface",
-    "Protective coatings",
+    "Protective coating",
     "Finished result",
   ]
   return (
@@ -197,11 +197,11 @@ export function WhyPrep() {
             light
             kicker="07 / Why it matters"
             title="Why surface preparation matters"
-            body="The quality of a coatings system starts with the condition of the surface beneath it."
+            body="The quality of a coating system starts with the condition of the surface beneath it."
           />
           <p className="mt-5 max-w-xl text-offwhite/70">
-            GK Coatings is not only a painting service. Work is organised around surface preparation plus
-            protective coatings — sand blasting in Vellore and Thiruvalam, then the specified coatings stage.
+            GK Coating is not only a painting service. Work is organised around surface preparation plus
+            protective coating — sand blasting in Vellore and Thiruvalam, then the specified coating stage.
           </p>
           <img
             src={images.blastingPpe}
@@ -235,12 +235,12 @@ export function AboutBlock() {
         <div className="lg:col-span-7">
           <SectionHeading
             kicker="09 / About"
-            title="GK Coatings"
+            title="GK Coating"
             body="Professional surface preparation for demanding surfaces."
           />
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-ink/75">
-            GK Coatings is based in Thiruvalam, Vellore, Tamil Nadu and provides surface treatment
-            and coatings-related services for industrial and architectural applications across Vellore
+            GK Coating is based in Thiruvalam, Vellore, Tamil Nadu and provides surface treatment
+            and coating-related services for industrial and architectural applications across Vellore
             and surrounding industrial areas. Proprietor {company.proprietor}.
           </p>
           <ul className="mt-6 grid gap-2 text-sm font-semibold uppercase tracking-[0.16em] text-brand-dark">
@@ -261,7 +261,7 @@ export function BusinessCard() {
   return (
     <div className="border border-black/10 bg-graphite p-8 text-offwhite shadow-xl">
       <p className="text-[11px] uppercase tracking-[0.3em] text-metal-light">Company</p>
-      <h3 className="mt-3 text-3xl font-extrabold tracking-[0.12em]">GK COATINGS</h3>
+      <h3 className="mt-3 text-3xl font-extrabold tracking-[0.12em]">GK COATING</h3>
       <p className="mt-3 text-sm leading-relaxed text-offwhite/70">{company.servicesLine}</p>
       <p className="mt-6 text-sm">
         Prop: <span className="font-semibold">{company.proprietor}</span>
@@ -354,7 +354,7 @@ export function FinalCta() {
           surface treatment?
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <ButtonAnchor href={company.primaryPhone.tel}>Call GK Coatings</ButtonAnchor>
+          <ButtonAnchor href={company.primaryPhone.tel}>Call GK Coating</ButtonAnchor>
           <ButtonAnchor href={company.whatsappUrl} variant="secondary" external>
             WhatsApp us
           </ButtonAnchor>

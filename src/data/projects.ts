@@ -13,7 +13,7 @@ export const projects: Project[] = [
   { id: "rust", title: "Rust Removal", category: "Surface Preparation", image: images.rust },
   { id: "spray", title: "Industrial Spray Painting", category: "Spray Painting", image: images.spray },
   { id: "prep", title: "Metal Surface Preparation", category: "Sand Blasting", image: images.blasting },
-  { id: "metallizing", title: "Metallizing", category: "Protective Coatings", image: images.metallizing },
+  { id: "metallizing", title: "Metallizing", category: "Protective Coating", image: images.metallizing },
   { id: "temple", title: "Temple Stone Blasting", category: "Stone", image: images.temple },
   { id: "finished", title: "Finished Steel Structure", category: "Completed Work", image: images.steelWarehouse },
 ]
@@ -55,7 +55,7 @@ export const processSteps = [
   {
     number: "01",
     title: "Inspect",
-    body: "Understand the material, existing coatings and surface condition.",
+    body: "Understand the material, existing coating and surface condition.",
   },
   {
     number: "02",
@@ -70,6 +70,6 @@ export const processSteps = [
   {
     number: "04",
     title: "Finish",
-    body: "Prepare the surface for the specified coatings or finishing operation.",
+    body: "Prepare the surface for the specified coating or finishing operation.",
   },
 ] as const
