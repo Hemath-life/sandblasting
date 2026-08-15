@@ -325,32 +325,32 @@ export function ContactCta() {
 export function LocalServiceAreasSection() {
   const areas = [
     {
-      name: "Thiruvalam Facility & Yard",
+      name: "Chennai & Northern Corridor",
+      badge: "Automotive & Heavy Industry",
+      distance: "Statewide Fleet",
+      desc: "Comprehensive mobile blasting and coating rig service for industrial zones across Chennai, Sriperumbudur, Oragadam, Kanchipuram, and Tiruvallur.",
+      services: ["Heavy PEB Warehouses", "Automotive Fixtures", "Chemical & Storage Tanks"],
+    },
+    {
+      name: "Coimbatore, Salem & Hosur",
+      badge: "Western Industrial Belt",
+      distance: "Statewide Fleet",
+      desc: "High-pressure abrasive profiling and thermal arc metallizing for foundries, precision machinery, textile frames, and steel fabrication yards.",
+      services: ["Foundry Casting Cleaning", "Thermal Arc Metallizing", "Structural Frame Coating"],
+    },
+    {
+      name: "Trichy, Madurai & South TN",
+      badge: "Boiler & Marine Corridors",
+      distance: "Statewide Fleet",
+      desc: "Specialized surface preparation for high-pressure boilers, piping networks, industrial silos, marine tanks, and heritage temple stone restoration.",
+      services: ["Boiler & Vessel Blasting", "Pipe Internal Profiling", "Temple Stone Restoration"],
+    },
+    {
+      name: "Ranipet & Vellore (Central Yard)",
       badge: "Main Yard & Rig Hub",
-      distance: "Local Center",
-      desc: "Central sand blasting yard and spray paint facility on Mariyamman Koil St, Kugainallur Post. Equipped for heavy structural steel beams, truck chassis, and off-site blasting.",
-      services: ["In-house Sand Blasting", "Airless Spray Painting", "Thermal Arc Metallizing"],
-    },
-    {
-      name: "Ranipet & SIPCOT Industrial Hub",
-      badge: "Heavy Engineering Corridor",
-      distance: "10-15 Mins",
-      desc: "Dedicated mobile rig service for SIPCOT Phase 1, Phase 2, Phase 3, and surrounding chemical, foundry, boiler, and heavy structural steel fabrication facilities.",
-      services: ["On-Site Mobile Rig", "Boiler & Vessel Blasting", "PEB Structure Coating"],
-    },
-    {
-      name: "Vellore, Katpadi & Bagayam",
-      badge: "Commercial & Industrial Hub",
-      distance: "15-20 Mins",
-      desc: "Rapid deployment for PEB warehouses, institutional campus steel, industrial machinery, storage tanks, and historical heritage masonry across the Vellore urban belt.",
-      services: ["PEB Warehouse Blasting", "Tank & Pipe Internal Blast", "Machinery Refurbishment"],
-    },
-    {
-      name: "Walajapet, Arcot, Ambur & Gudiyatham",
-      badge: "Extended Industrial District",
-      distance: "Same-Day Deployment",
-      desc: "Surface preparation and anti-corrosion metallizing for industrial foundries, leather machinery frames, crane gantries, and architectural stone restoration.",
-      services: ["Foundry Casting Cleaning", "Crane Gantry Blasting", "Temple Stone Micro-Blasting"],
+      distance: "Central Blast Facility",
+      desc: "Our central facility on Mariyamman Koil St, Thiruvalam plus dedicated on-site mobile compressor units serving Ranipet SIPCOT Phases 1-3, Katpadi, and Ambur.",
+      services: ["In-House Blast Booth", "24/7 Mobile Rig Dispatch", "Airless Spray Painting"],
     },
   ]
 
@@ -360,28 +360,28 @@ export function LocalServiceAreasSection() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
             <p className="text-[11px] font-bold uppercase tracking-[0.28em] text-metal-light">
-              09 / Local Industrial Reach
+              09 / Statewide Industrial Reach
             </p>
             <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-white md:text-5xl">
-              Sand Blasting &amp; Coating in <br className="hidden sm:block" />
+              Industrial Sand Blasting &amp; Coating <br className="hidden sm:block" />
               <span className="bg-gradient-to-r from-white via-offwhite to-metal-light bg-clip-text text-transparent">
-                Vellore, Ranipet &amp; Thiruvalam
+                All Over Tamil Nadu &amp; South India
               </span>
             </h2>
           </div>
           <div className="flex items-center gap-3 rounded-xl border border-metal/30 bg-charcoal/80 px-4 py-3 backdrop-blur-md">
             <Truck className="h-6 w-6 text-metal-light shrink-0" />
             <div>
-              <p className="text-xs font-extrabold text-white">24/7 Mobile Blasting Rig</p>
-              <p className="text-[11px] text-offwhite/70">On-site service throughout Tamil Nadu</p>
+              <p className="text-xs font-extrabold text-white">24/7 Mobile Blasting Rig Fleet</p>
+              <p className="text-[11px] text-offwhite/70">On-site deployment across all Tamil Nadu districts</p>
             </div>
           </div>
         </div>
 
         <p className="mt-6 max-w-3xl text-base text-offwhite/75 md:text-lg">
-          Whether you require high-pressure abrasive blasting at our Thiruvalam yard or a fully equipped mobile
-          compressor rig dispatched directly to your worksite in Ranipet SIPCOT or Vellore, GK Coating delivers
-          certified ISO Sa 2.5 surface purity and long-lasting protective finishes.
+          From heavy PEB structures in Chennai and automotive fabrication in Coimbatore to boiler plants in Trichy
+          and industrial yards in Ranipet and Vellore — GK Coating deploys fully equipped mobile compressor rigs
+          and experienced crews to worksites anywhere in Tamil Nadu and neighboring states.
         </p>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -409,7 +409,7 @@ export function LocalServiceAreasSection() {
               </div>
 
               <div className="mt-6 border-t border-white/10 pt-4">
-                <p className="text-[10px] uppercase font-bold tracking-wider text-metal-light mb-2">Key Services:</p>
+                <p className="text-[10px] uppercase font-bold tracking-wider text-metal-light mb-2">Key Capabilities:</p>
                 <ul className="space-y-1.5">
                   {a.services.map((s) => (
                     <li key={s} className="flex items-center gap-1.5 text-[11px] text-offwhite/85">
@@ -423,15 +423,15 @@ export function LocalServiceAreasSection() {
           ))}
         </div>
 
-        {/* Quick Local Callout Box */}
+        {/* Quick Statewide Callout Box */}
         <div className="mt-10 flex flex-col items-center justify-between gap-4 rounded-2xl border border-metal/30 bg-gradient-to-r from-charcoal via-charcoal/90 to-metal/10 p-6 sm:flex-row">
           <div className="flex items-center gap-3.5">
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-metal/20 text-metal-light">
               <ShieldCheck className="h-5 w-5" />
             </div>
             <div>
-              <p className="text-sm font-extrabold text-white">Need emergency or scheduled on-site sand blasting?</p>
-              <p className="text-xs text-offwhite/70">Immediate quotes and site visits available across Vellore &amp; Ranipet districts.</p>
+              <p className="text-sm font-extrabold text-white">Need an on-site mobile sand blasting rig anywhere in Tamil Nadu?</p>
+              <p className="text-xs text-offwhite/70">Rapid mobilization for industrial shutdowns, structural steel projects, and heritage sites.</p>
             </div>
           </div>
           <div className="flex flex-wrap gap-3">

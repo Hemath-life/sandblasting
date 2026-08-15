@@ -255,10 +255,10 @@ export function Hero() {
               className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-offwhite/80 border-t border-white/10 pt-4"
             >
               <span className="flex items-center gap-1.5 font-semibold text-metal-light">
-                <Truck className="h-4 w-4 shrink-0" /> 24/7 Mobile Rig: Vellore • Ranipet SIPCOT • Thiruvalam
+                <Truck className="h-4 w-4 shrink-0" /> 24/7 Mobile Rig: All Over Tamil Nadu &amp; South India
               </span>
               <span className="text-offwhite/50">•</span>
-              <span>ISO Sa 2.5 Certified</span>
+              <span>ISO Sa 2.5 / Sa 3 Certified</span>
             </motion.div>
 
           </div>

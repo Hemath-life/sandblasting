@@ -44,10 +44,10 @@ export const company = {
   tagline: "Surface Preparation & Protective Coating Solutions",
   supportingLine: "Prepare. Protect. Preserve.",
   description:
-    "Top-rated sand blasting, thermal arc spray metallizing, industrial spray painting and temple stone blasting in Thiruvalam, Vellore & Ranipet, Tamil Nadu — for PEB structures, structural steel and machinery.",
+    "Leading sand blasting, thermal arc spray metallizing, industrial spray painting and temple stone blasting contractor serving all over Tamil Nadu & South India — for PEB structures, structural steel, tanks and heavy machinery.",
   gstin: env("VITE_GSTIN", "33DYCPP7577J1ZU"),
-  location: env("VITE_LOCATION", "Thiruvalam, Vellore, Tamil Nadu"),
-  serviceArea: env("VITE_SERVICE_AREA", "Thiruvalam, Vellore, Ranipet SIPCOT, Katpadi, Ambur & Industrial Tamil Nadu"),
+  location: env("VITE_LOCATION", "Thiruvalam, Vellore District, Tamil Nadu (Serving All Over Tamil Nadu)"),
+  serviceArea: env("VITE_SERVICE_AREA", "All over Tamil Nadu & South India — Chennai, Coimbatore, Hosur, Salem, Trichy, Madurai, Ranipet, Vellore & Statewide"),
   address: {
     line1: env("VITE_ADDRESS_LINE1", "No. 437, Mariyamman Koil Street"),
     line2: env("VITE_ADDRESS_LINE2", "Kugainallur Post"),
