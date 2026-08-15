@@ -3,6 +3,7 @@ import { FinalCta } from "../components/HomeSections"
 import { Gallery } from "../components/Gallery"
 import { PageHero } from "../components/Hero"
 import { Seo } from "../components/Seo"
+import { seoConfig } from "../data/company"
 import { images } from "../data/images"
 import { getService } from "../data/services"
 
@@ -12,8 +13,8 @@ export default function SprayPainting() {
   return (
     <>
       <Seo
-        title="Industrial Spray Painting in Vellore, Ranipet & Thiruvalam | Epoxy & PU Coating"
-        description="Airless spray painting, high-build epoxy primers and polyurethane topcoats for PEB structural steel and industrial fabrications in Thiruvalam, Vellore, Ranipet SIPCOT & Tamil Nadu."
+        title={seoConfig.sprayPainting.title}
+        description={seoConfig.sprayPainting.description}
         path={service.path}
       />
       <PageHero kicker="02 / Spray painting" title={service.title} body={service.heroSubtitle} image={service.image} />

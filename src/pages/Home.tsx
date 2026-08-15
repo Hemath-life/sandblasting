@@ -1,4 +1,5 @@
 import { Seo } from "../components/Seo"
+import { seoConfig } from "../data/company"
 import { Hero, TrustStrip } from "../components/Hero"
 import {
   AboutBlock,
@@ -21,8 +22,8 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="Sand Blasting in Vellore, Ranipet & Thiruvalam | GK Coating | Mobile Rig"
-        description="Top-rated Sand Blasting, Thermal Arc Spray Metallizing, Airless Spray Painting & Temple Stone Blasting in Thiruvalam, Vellore, Ranipet SIPCOT, Tamil Nadu. Mobile on-site rig available."
+        title={seoConfig.home.title}
+        description={seoConfig.home.description}
         path="/"
       />
       <JsonLd />

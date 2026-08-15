@@ -5,6 +5,7 @@ import { Gallery } from "../components/Gallery"
 import { PageHero } from "../components/Hero"
 import { Seo } from "../components/Seo"
 import { images } from "../data/images"
+import { seoConfig } from "../data/company"
 import { getService } from "../data/services"
 
 const service = getService("sand-blasting")
@@ -13,8 +14,8 @@ export default function SandBlasting() {
   return (
     <>
       <Seo
-        title="Sand Blasting in Vellore, Ranipet & Thiruvalam | PEB Steel & Metal Blasting"
-        description="High-pressure industrial sand blasting (Sa 2.5 / Sa 3) for PEB structural steel, machinery, and rust removal in Thiruvalam, Vellore, Ranipet SIPCOT & Tamil Nadu. 24/7 Mobile rig."
+        title={seoConfig.sandblasting.title}
+        description={seoConfig.sandblasting.description}
         path={service.path}
       />
       <PageHero kicker="01 / Sand blasting" title={service.title} body={service.heroSubtitle} image={service.image} />

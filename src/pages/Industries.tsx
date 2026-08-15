@@ -3,6 +3,7 @@ import { Breadcrumbs } from "../components/Breadcrumbs"
 import { FinalCta } from "../components/HomeSections"
 import { PageHero } from "../components/Hero"
 import { Seo } from "../components/Seo"
+import { seoConfig } from "../data/company"
 import { applications } from "../data/projects"
 import { images } from "../data/images"
 
@@ -10,8 +11,8 @@ export default function Industries() {
   return (
     <>
       <Seo
-        title="Industries | PEB, Steel & Metal Surface Preparation | GK Coating"
-        description="Surface preparation for PEB buildings, structural steel, industrial fabrication, machinery, metal components and temple stone in Vellore."
+        title={seoConfig.industries.title}
+        description={seoConfig.industries.description}
         path="/industries"
       />
       <PageHero

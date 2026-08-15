@@ -4,7 +4,7 @@ import { BusinessCard, FinalCta } from "../components/HomeSections"
 import { PageHero } from "../components/Hero"
 import { Seo } from "../components/Seo"
 import { JsonLd } from "../components/JsonLd"
-import { company, mapsEmbedUrl } from "../data/company"
+import { company, mapsEmbedUrl, seoConfig } from "../data/company"
 import { images } from "../data/images"
 
 export default function Contact() {
@@ -12,8 +12,8 @@ export default function Contact() {
   return (
     <>
       <Seo
-        title="Contact GK Coating | Sand Blasting in Thiruvalam, Vellore, Ranipet"
-        description="Get an instant quote or schedule an on-site mobile sand blasting rig visit in Thiruvalam, Vellore, Ranipet SIPCOT & Tamil Nadu. Call or WhatsApp GK Coating."
+        title={seoConfig.contact.title}
+        description={seoConfig.contact.description}
         path="/contact"
       />
       <JsonLd />

@@ -2,6 +2,7 @@ import { Breadcrumbs } from "../components/Breadcrumbs"
 import { FinalCta } from "../components/HomeSections"
 import { PageHero } from "../components/Hero"
 import { Seo } from "../components/Seo"
+import { seoConfig } from "../data/company"
 import { ServiceCard } from "../components/ServiceCard"
 import { images } from "../data/images"
 import { services } from "../data/services"
@@ -10,8 +11,8 @@ export default function Services() {
   return (
     <>
       <Seo
-        title="Industrial Surface Coating & Sandblasting Services | Vellore, Ranipet & TN"
-        description="Comprehensive industrial services: Sand Blasting (Sa 2.5), Thermal Arc Spray Metallizing, Airless Spray Painting & Temple Stone Blasting in Vellore, Ranipet SIPCOT & Tamil Nadu."
+        title={seoConfig.services.title}
+        description={seoConfig.services.description}
         path="/services"
       />
       <PageHero

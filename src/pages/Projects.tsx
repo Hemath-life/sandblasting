@@ -3,14 +3,15 @@ import { Gallery } from "../components/Gallery"
 import { FinalCta } from "../components/HomeSections"
 import { PageHero } from "../components/Hero"
 import { Seo } from "../components/Seo"
+import { seoConfig } from "../data/company"
 import { images } from "../data/images"
 
 export default function Projects() {
   return (
     <>
       <Seo
-        title="Projects | Industrial Surface Preparation Gallery | GK Coating"
-        description="Gallery of PEB steel, structural blasting, rust removal, spray painting, metallizing and temple stone work from GK Coating."
+        title={seoConfig.projects.title}
+        description={seoConfig.projects.description}
         path="/projects"
       />
       <PageHero

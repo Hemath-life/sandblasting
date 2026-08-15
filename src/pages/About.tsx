@@ -3,7 +3,7 @@ import { BusinessCard, FinalCta } from "../components/HomeSections"
 import { PageHero } from "../components/Hero"
 import { Seo } from "../components/Seo"
 import { JsonLd } from "../components/JsonLd"
-import { company } from "../data/company"
+import { company, seoConfig } from "../data/company"
 import { images } from "../data/images"
 import { services } from "../data/services"
 
@@ -11,8 +11,8 @@ export default function About() {
   return (
     <>
       <Seo
-        title="About GK Coating | Surface Preparation in Thiruvalam, Vellore"
-        description="GK Coating is a surface preparation and protective coating company in Thiruvalam, Vellore, led by proprietor Praveen Kumar K."
+        title={seoConfig.about.title}
+        description={seoConfig.about.description}
         path="/about"
       />
       <JsonLd />

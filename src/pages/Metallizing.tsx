@@ -3,6 +3,7 @@ import { FinalCta } from "../components/HomeSections"
 import { Gallery } from "../components/Gallery"
 import { PageHero } from "../components/Hero"
 import { Seo } from "../components/Seo"
+import { seoConfig } from "../data/company"
 import { images } from "../data/images"
 import { getService } from "../data/services"
 
@@ -12,8 +13,8 @@ export default function Metallizing() {
   return (
     <>
       <Seo
-        title="Thermal Arc Spray Metallizing in Vellore & Ranipet | Zinc & Aluminium Coating"
-        description="Thermal arc spray metallizing (zinc & aluminum coating) for 25+ years anti-corrosion cathodic protection on industrial steel in Thiruvalam, Vellore, Ranipet & Tamil Nadu."
+        title={seoConfig.metallizing.title}
+        description={seoConfig.metallizing.description}
         path={service.path}
       />
       <PageHero kicker="04 / Metallizing" title={service.title} body={service.heroSubtitle} image={service.image} />

@@ -48,6 +48,7 @@ export const company = {
   gstin: env("VITE_GSTIN", "33DYCPP7577J1ZU"),
   location: env("VITE_LOCATION", "Thiruvalam, Vellore District, Tamil Nadu (Serving All Over Tamil Nadu)"),
   serviceArea: env("VITE_SERVICE_AREA", "All over Tamil Nadu & South India — Chennai, Coimbatore, Hosur, Salem, Trichy, Madurai, Ranipet, Vellore & Statewide"),
+  mobileRigLabel: "24/7 Mobile Rig Fleet: All Over Tamil Nadu & South India",
   address: {
     line1: env("VITE_ADDRESS_LINE1", "No. 437, Mariyamman Koil Street"),
     line2: env("VITE_ADDRESS_LINE2", "Kugainallur Post"),
@@ -89,6 +90,98 @@ export const company = {
     "Temple stone surfaces",
   ],
 }
+
+export const seoConfig = {
+  defaultTitle: "GK Coating | Sand Blasting & Protective Coating All Over Tamil Nadu & South India",
+  defaultDescription:
+    "Top-rated Sand Blasting (Sa 2.5/Sa 3), Thermal Arc Spray Metallizing, Airless Spray Painting & Temple Stone Blasting all over Tamil Nadu & South India. 24/7 Mobile Rig Fleet.",
+  home: {
+    title: "Sand Blasting & Protective Coating All Over Tamil Nadu & South India | GK Coating",
+    description:
+      "Top-rated Sand Blasting (Sa 2.5/Sa 3), Thermal Arc Spray Metallizing, Airless Spray Painting & Temple Stone Blasting all over Tamil Nadu & South India. 24/7 Mobile Rig Fleet.",
+  },
+  services: {
+    title: "Industrial Surface Coating & Sandblasting Services | All Over Tamil Nadu",
+    description:
+      "Comprehensive industrial surface treatment: Sand Blasting (Sa 2.5/Sa 3), Thermal Arc Spray Metallizing, Airless Spray Painting & Temple Stone Blasting all over Tamil Nadu & South India.",
+  },
+  sandblasting: {
+    title: "Industrial Sand Blasting Services All Over Tamil Nadu | PEB Steel & Metal Blasting",
+    description:
+      "High-pressure industrial sand blasting (Sa 2.5 / Sa 3) for PEB structural steel, machinery, tanks and rust removal all over Tamil Nadu & South India. 24/7 Mobile rig.",
+  },
+  sprayPainting: {
+    title: "Industrial Spray Painting Services All Over Tamil Nadu | Epoxy & PU Coating",
+    description:
+      "Airless spray painting, high-build epoxy primers and polyurethane topcoats for PEB structural steel, tanks and fabrications all over Tamil Nadu & South India.",
+  },
+  metallizing: {
+    title: "Thermal Arc Spray Metallizing All Over Tamil Nadu | Zinc & Aluminium Coating",
+    description:
+      "Thermal arc spray metallizing (zinc & aluminum coating) for 25+ years anti-corrosion cathodic protection on industrial steel all over Tamil Nadu & South India.",
+  },
+  templeStone: {
+    title: "Temple Stone Blasting & Heritage Restoration All Over Tamil Nadu | GK Coating",
+    description:
+      "Specialized low-pressure non-destructive micro-abrasive blasting for temple granite sculptures, ancient pillars, and heritage stone surfaces across Tamil Nadu.",
+  },
+  industries: {
+    title: "Industries Served | PEB, Steel Fabrication, Boilers & Marine | Tamil Nadu",
+    description:
+      "Industrial surface preparation and protective coating solutions for PEB, structural steel, foundries, manufacturing, marine, and heritage sectors across Tamil Nadu.",
+  },
+  process: {
+    title: "Our 6-Step Surface Preparation & Coating Process | ISO Quality Standards",
+    description:
+      "From inspection and abrasive profiling to multi-coat DFT verification and QC sign-off — explore our certified 6-step coating process.",
+  },
+  projects: {
+    title: "Our Industrial Blasting & Coating Projects | Proven Track Record",
+    description:
+      "Explore completed sand blasting, spray painting, and metallizing projects across Tamil Nadu — PEB structures, machinery, and heritage restoration.",
+  },
+  about: {
+    title: "About GK Coating | Leading Blasting & Coating Contractor in Tamil Nadu",
+    description:
+      "Learn about GK Coating — our leadership, quality standards, mobile fleet capabilities, and commitment to surface protection excellence across Tamil Nadu.",
+  },
+  contact: {
+    title: "Contact GK Coating | Mobile Rig & Instant Quotes All Over Tamil Nadu",
+    description:
+      "Get an instant quote or schedule an on-site mobile sand blasting rig visit anywhere in Tamil Nadu and South India. Call or WhatsApp GK Coating.",
+  },
+} as const
+
+export const serviceRegions = [
+  {
+    name: "Chennai & Northern Corridor",
+    badge: "Automotive & Heavy Industry",
+    distance: "Statewide Fleet",
+    desc: "Comprehensive mobile blasting and coating rig service for industrial zones across Chennai, Sriperumbudur, Oragadam, Kanchipuram, and Tiruvallur.",
+    services: ["Heavy PEB Warehouses", "Automotive Fixtures", "Chemical & Storage Tanks"],
+  },
+  {
+    name: "Coimbatore, Salem & Hosur",
+    badge: "Western Industrial Belt",
+    distance: "Statewide Fleet",
+    desc: "High-pressure abrasive profiling and thermal arc metallizing for foundries, precision machinery, textile frames, and steel fabrication yards.",
+    services: ["Foundry Casting Cleaning", "Thermal Arc Metallizing", "Structural Frame Coating"],
+  },
+  {
+    name: "Trichy, Madurai & South TN",
+    badge: "Boiler & Marine Corridors",
+    distance: "Statewide Fleet",
+    desc: "Specialized surface preparation for high-pressure boilers, piping networks, industrial silos, marine tanks, and heritage temple stone restoration.",
+    services: ["Boiler & Vessel Blasting", "Pipe Internal Profiling", "Temple Stone Restoration"],
+  },
+  {
+    name: "Ranipet & Vellore (Central Yard)",
+    badge: "Main Yard & Rig Hub",
+    distance: "Central Blast Facility",
+    desc: "Our central facility on Mariyamman Koil St, Thiruvalam plus dedicated on-site mobile compressor units serving Ranipet SIPCOT Phases 1-3, Katpadi, and Ambur.",
+    services: ["In-House Blast Booth", "24/7 Mobile Rig Dispatch", "Airless Spray Painting"],
+  },
+] as const
 
 export const navLinks = [
   { label: "Home", to: "/" },

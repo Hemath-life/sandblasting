@@ -1,6 +1,6 @@
 import { ArrowUpRight, MapPin, Truck, ShieldCheck, CheckCircle2 } from "lucide-react"
 import { Link } from "react-router-dom"
-import { company } from "../data/company"
+import { company, serviceRegions } from "../data/company"
 import { images } from "../data/images"
 import { applications } from "../data/projects"
 import { services } from "../data/services"

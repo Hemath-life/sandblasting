@@ -3,6 +3,7 @@ import { FinalCta } from "../components/HomeSections"
 import { Gallery } from "../components/Gallery"
 import { PageHero } from "../components/Hero"
 import { Seo } from "../components/Seo"
+import { seoConfig } from "../data/company"
 import { images } from "../data/images"
 import { getService } from "../data/services"
 
@@ -12,8 +13,8 @@ export default function TempleStoneBlasting() {
   return (
     <>
       <Seo
-        title="Temple Stone Blasting & Heritage Restoration in Vellore, Tamil Nadu"
-        description="Gentle, non-destructive micro-abrasive temple stone blasting, ancient granite carving cleaning and heritage restoration across Vellore, Thiruvalam & Tamil Nadu."
+        title={seoConfig.templeStone.title}
+        description={seoConfig.templeStone.description}
         path={service.path}
       />
       <PageHero kicker="03 / Stone" title={service.title} body={service.heroSubtitle} image={service.image} />

@@ -3,14 +3,15 @@ import { FinalCta } from "../components/HomeSections"
 import { PageHero } from "../components/Hero"
 import { ProcessSteps } from "../components/ProcessSteps"
 import { Seo } from "../components/Seo"
+import { seoConfig } from "../data/company"
 import { images } from "../data/images"
 
 export default function Process() {
   return (
     <>
       <Seo
-        title="Our Process | Surface Preparation Workflow | GK Coating"
-        description="Inspect, prepare, blast and finish — GK Coating’s clear path from surface condition to coating-ready steel and stone."
+        title={seoConfig.process.title}
+        description={seoConfig.process.description}
         path="/process"
       />
       <PageHero
