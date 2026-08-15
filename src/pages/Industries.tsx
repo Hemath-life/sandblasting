@@ -10,14 +10,14 @@ export default function Industries() {
   return (
     <>
       <Seo
-        title="Industries | PEB, Steel & Metal Surface Preparation | GK Coating"
+        title="Industries | PEB, Steel & Metal Surface Preparation | GK Coatings"
         description="Surface preparation for PEB buildings, structural steel, industrial fabrication, machinery, metal components and temple stone in Vellore."
         path="/industries"
       />
       <PageHero
         kicker="Industries"
         title="Where preparation meets industrial work"
-        body="GK Coating supports PEB contractors, steel fabricators, industrial plants and architectural stone projects in Vellore and surrounding industrial areas."
+        body="GK Coatings supports PEB contractors, steel fabricators, industrial plants and architectural stone projects in Vellore and surrounding industrial areas."
         image={images.steelWarehouse}
       />
       <Breadcrumbs items={[{ label: "Home", to: "/" }, { label: "Industries" }]} />

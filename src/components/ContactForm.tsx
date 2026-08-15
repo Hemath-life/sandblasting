@@ -63,7 +63,7 @@ export function ContactForm() {
     setStatusMessage("Sending enquiry…")
     const payload = {
       ...values,
-      source: "gk-coating-website",
+      source: "gk-coatings-website",
     }
     const endpoint = company.contactApiUrl
 

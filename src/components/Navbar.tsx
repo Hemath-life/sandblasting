@@ -7,7 +7,7 @@ import { cn } from "../lib/cn"
 
 export function Logo({ inverted = false }: { inverted?: boolean }) {
   return (
-    <Link to="/" className="flex items-center gap-3 min-h-11" aria-label="GK Coating home">
+    <Link to="/" className="flex items-center gap-3 min-h-11" aria-label="GK Coatings home">
       <span
         className={cn(
           "grid h-10 w-10 place-items-center border text-[11px] font-extrabold tracking-[0.18em]",
@@ -17,9 +17,9 @@ export function Logo({ inverted = false }: { inverted?: boolean }) {
         GK
       </span>
       <span className="leading-none">
-        <span className="block text-[13px] font-extrabold tracking-[0.22em]">GK COATING</span>
+        <span className="block text-[13px] font-extrabold tracking-[0.22em]">GK COATINGS</span>
         <span className="mt-1 hidden text-[9px] uppercase tracking-[0.28em] text-steel sm:block">
-          Surface · Coating
+          Surface · Coatings
         </span>
       </span>
     </Link>

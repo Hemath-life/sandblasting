@@ -12,8 +12,8 @@ export default function Metallizing() {
   return (
     <>
       <Seo
-        title="Metallizing in Vellore | Protective Metallic Coatings | GK Coating"
-        description="Metallizing and protective metallic coating for prepared steel structures and industrial surfaces in Thiruvalam, Vellore."
+        title="Metallizing in Vellore | Protective Metallic Coatings | GK Coatings"
+        description="Metallizing and protective metallic coatings for prepared steel structures and industrial surfaces in Thiruvalam, Vellore."
         path={service.path}
       />
       <PageHero kicker="04 / Metallizing" title={service.title} body={service.heroSubtitle} image={service.image} />
@@ -28,7 +28,7 @@ export default function Metallizing() {
         <div className="container-site max-w-4xl">
           <h2 className="text-3xl font-extrabold">What is metallizing?</h2>
           <p className="mt-4 leading-relaxed text-ink/75">
-            Metallizing is a protective metallic coating process applied to suitably prepared metal surfaces.
+            Metallizing is a protective metallic coatings process applied to suitably prepared metal surfaces.
             It is typically used as part of a corrosion-protection system for structural steel and industrial
             components.
           </p>
@@ -44,7 +44,7 @@ export default function Metallizing() {
             preparation methods may be required before metallizing, depending on the existing surface
             condition and the specified system.
           </p>
-          <h2 className="mt-10 text-3xl font-extrabold">Protective coating concept</h2>
+          <h2 className="mt-10 text-3xl font-extrabold">Protective coatings concept</h2>
           <p className="mt-4 leading-relaxed text-ink/75">
             Metallizing is one stage in a protection sequence — not a standalone promise of coating life.
             Durability depends on specification, environment, application and maintenance.
