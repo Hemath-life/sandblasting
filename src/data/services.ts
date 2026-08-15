@@ -26,7 +26,7 @@ export const services: Service[] = [
     path: "/services/sand-blasting",
     short: "Professional abrasive blasting for cleaning and preparing metal surfaces before coating.",
     description:
-      "Abrasive blasting is used to remove rust, old coatings, mill scale and surface contaminants from suitable metal surfaces, creating a cleaner profile for the next coating stage.",
+      "Abrasive blasting is used to remove rust, old coating, mill scale and surface contaminants from suitable metal surfaces, creating a cleaner profile for the next coating stage.",
     applications: [
       "PEB structures",
       "Structural steel",

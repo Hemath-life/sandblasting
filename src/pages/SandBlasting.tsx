@@ -36,7 +36,7 @@ export default function SandBlasting() {
             </p>
             <h2 className="mt-10 text-3xl font-extrabold">Why surface preparation matters</h2>
             <p className="mt-4 leading-relaxed text-ink/75">
-              Coatings bond to the surface they are applied to. Rust, mill scale, old paint and contaminants
+              Coating bonds to the surface they are applied to. Rust, mill scale, old paint and contaminants
               can interfere with that bond. Preparation is therefore the first practical step, not an optional
               extra. GK Coating does not claim specific blast grades or coating life unless they are defined
               in a project specification.

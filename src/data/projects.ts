@@ -65,7 +65,7 @@ export const processSteps = [
   {
     number: "03",
     title: "Blast",
-    body: "Remove unwanted surface contaminants, rust, old coatings or mill scale as applicable.",
+    body: "Remove unwanted surface contaminants, rust, old coating or mill scale as applicable.",
   },
   {
     number: "04",

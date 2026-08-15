@@ -28,7 +28,7 @@ export default function SprayPainting() {
         <div className="container-site max-w-4xl">
           <h2 className="text-3xl font-extrabold">Industrial spray painting</h2>
           <p className="mt-4 leading-relaxed text-ink/75">
-            Spray painting is used to apply specified coatings to prepared industrial surfaces. Coverage,
+            Spray painting is used to apply specified coating to prepared industrial surfaces. Coverage,
             film build and appearance depend on the coating system, application conditions and the quality of
             the surface underneath.
           </p>
@@ -40,7 +40,7 @@ export default function SprayPainting() {
           <h2 className="mt-10 text-3xl font-extrabold">Surface preparation</h2>
           <p className="mt-4 leading-relaxed text-ink/75">
             Painting is treated as a later stage. GK Coating&apos;s approach is to prepare first — removing
-            rust, loose coatings and contaminants where applicable — so the specified paint system has a
+            rust, loose coating and contaminants where applicable — so the specified paint system has a
             cleaner foundation.
           </p>
           <h2 className="mt-10 text-3xl font-extrabold">Application process</h2>

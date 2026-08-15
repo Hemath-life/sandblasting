@@ -27,7 +27,7 @@ export function Introduction() {
             components and other industrial surfaces.
           </p>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-ink/75">
-            Proper preparation can help remove rust, old coatings, mill scale, dirt, oxidation and
+            Proper preparation can help remove rust, old coating, mill scale, dirt, oxidation and
             surface contaminants, and prepares surfaces for subsequent protective coating operations.
           </p>
           <ul className="mt-6 flex flex-wrap gap-2">

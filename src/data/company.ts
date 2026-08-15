@@ -40,7 +40,7 @@ export const company = {
   name: env("VITE_COMPANY_NAME", "GK COATING"),
   shortName: env("VITE_COMPANY_SHORT_NAME", "GK Coating"),
   proprietor: env("VITE_PROPRIETOR", "Praveen Kumar K."),
-  eyebrow: "SURFACE PREPARATION & PROTECTIVE COATINGS",
+  eyebrow: "SURFACE PREPARATION & PROTECTIVE COATING",
   tagline: "Surface Preparation & Protective Coating Solutions",
   supportingLine: "Prepare. Protect. Preserve.",
   description:

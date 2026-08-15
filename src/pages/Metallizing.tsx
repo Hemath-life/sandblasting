@@ -12,7 +12,7 @@ export default function Metallizing() {
   return (
     <>
       <Seo
-        title="Metallizing in Vellore | Protective Metallic Coatings | GK Coating"
+        title="Metallizing in Vellore | Protective Metallic Coating | GK Coating"
         description="Metallizing and protective metallic coating for prepared steel structures and industrial surfaces in Thiruvalam, Vellore."
         path={service.path}
       />
@@ -40,7 +40,7 @@ export default function Metallizing() {
           </ul>
           <h2 className="mt-10 text-3xl font-extrabold">Steel structures &amp; surface preparation</h2>
           <p className="mt-4 leading-relaxed text-ink/75">
-            Metallic coatings perform best on a clean, appropriately prepared substrate. Blasting or other
+            Metallic coating performs best on a clean, appropriately prepared substrate. Blasting or other
             preparation methods may be required before metallizing, depending on the existing surface
             condition and the specified system.
           </p>
